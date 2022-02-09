@@ -13,4 +13,12 @@ class StateController: ObservableObject {
     init(){
         divisions = Division.examples
     }
+    
+    func loadFromFile() {
+        print("TODO")
+    }
+    
+    func saveToFile() {
+        print("TODO")
+    }
 }

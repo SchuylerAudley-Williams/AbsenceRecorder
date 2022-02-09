@@ -17,6 +17,6 @@ class StudentAbsence: ObservableObject {
     }
     
     #if DEBUG
-    static let example = Student.example
+    static let example = StudentAbsence(student: Student.example)
     #endif
 }
